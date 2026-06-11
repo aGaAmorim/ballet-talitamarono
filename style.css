@@ -69,6 +69,40 @@ body {
   max-width: 650px;
 }
 
+.hidden {
+  display: none;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.teacher-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 24px;
+  padding: 24px;
+  text-align: center;
+}
+
+.teacher-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+
+.teacher-card h3 {
+  color: #f6d98b;
+  margin-bottom: 8px;
+}
+
+.teacher-card p {
+  color: #d6d8e7;
+}
+
 .tag {
   display: inline-block;
   margin-bottom: 18px;

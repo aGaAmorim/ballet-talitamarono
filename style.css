@@ -69,6 +69,54 @@ body {
   max-width: 650px;
 }
 
+.hero-photo {
+  min-height: 100vh;
+  position: relative;
+  background-image: url("assets/images/banner-studio.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 8%;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  color: white;
+}
+
+.hero-text span {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f6d98b;
+}
+
+.hero-text h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
 .hidden {
   display: none;
 }
